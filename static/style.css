@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    padding: 50px;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.flash {
+    color: red;
+    list-style: none;
+}
