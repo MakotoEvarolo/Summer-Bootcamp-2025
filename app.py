@@ -44,5 +44,12 @@ def logout():
     session.pop('username', None)
     return redirect(url_for('login'))
 
+@app.route('/profile')
+def profile():
+    if 'username' not in session:
+        return redirect(url_for('login'))
+    return render_template('profile.html', username=session['username'])
+
+
 if __name__ == '__main__':
     app.run(debug=True)
